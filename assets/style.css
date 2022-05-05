@@ -1,0 +1,33 @@
+nav {
+    background-color: #16222E;
+    height: 8rem;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+  }
+  
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0em 20rem;
+}
+
+nav ul li{
+  margin-top: 2.5rem;
+  background-color: rgb(28, 112, 185);
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+  transition: all 0.5s ease-out;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: azure;
+}
+
+nav ul li:hover, nav ul li:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+  color: #000;
+  transform: translateY(-0.25em);
+}
